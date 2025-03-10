@@ -5,7 +5,7 @@ import Post from './Post'
  
  const Profile = () => {
    return (
-     <div className=' w-full   h-screen  flex flex-col  items-center p-15  '>
+     <div className=' w-full h-screen flex flex-col    p-15 items-center space-y-5 gap-y-5'>
         <div>
         <UpperProfile/>
         <Highlights/>

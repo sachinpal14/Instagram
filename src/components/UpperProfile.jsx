@@ -3,17 +3,17 @@ import { IoSettings } from 'react-icons/io5'
 
 const UpperProfile = () => {
   return (
-    <div className=' flex w-full  justify-around '>
-        <div className="left p-5  rounded-full border-gray-400">
+    <div className=' flex w-full  justify-around  '>
+        <div className="left border-t-1  border-b-1 border-b-gray-300 rounded-full border-t-gray-400">
             <img 
-            className='rounded-full border-gray-500 w-full h-full' src=" https://th.bing.com/th/id/OIP.dlx6eIw_LFRufJVNRb7fcwHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
+            className='rounded-full border-gray-500 w-52 h-52' src=" https://th.bing.com/th/id/OIP.dlx6eIw_LFRufJVNRb7fcwHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
         </div>
-        <div className="right  flex flex-col h-full  ">
+        <div className="right  flex flex-col h-full gap-y-5 ">
             <div className="shortnav flex  w-full gap-5 px-4 items-center ">
-                <h1>sachinpal14</h1>
-                <button className='bg-gray-500 rounded px-4 py-1 txt-lg'>Edit Profile</button>
-                <button className='bg-gray-500 rounded px-4 py-1 txt-lg'>View Archive</button>
-                <IoSettings/>
+                <h1 className='font-semibold text-xl'>sachinpal14</h1>
+                <button className='cursor-pointer bg-gray-500 rounded px-4 py-1 txt-lg'>Edit Profile</button>
+                <button className='cursor-pointer bg-gray-500 rounded px-4 py-1 txt-lg'>View Archive</button>
+                <IoSettings className='cursor-pointer text-xl'/>
             </div>
             <div className="followwerAndPost flex justify-between px-4 ">
                 <div  className='flex gap-2 '>
